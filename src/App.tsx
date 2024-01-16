@@ -8,7 +8,7 @@ import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
 function App() {
   var [shortenedLink,setShortenedLink] = useState("wallet-hunter-vrn21s-projects.vercel.app/BestSongInDaWorld")  
   return (
-    <main >
+    <main className="flex flex-col justify-end item">
       <div className="flex justify-center w-[100vw] gap-[150px] items-center">
         <h1 className=" font-black max-w-[600px] text-[120px] leading-[0.8] text-gray-100">
           Unleash the Power of Short Links with  
@@ -37,6 +37,9 @@ function App() {
           
         </div>
       </div>
+      <footer className="flex justify-center pt-[px] opacity-70">
+        Made with ❤️ by&nbsp;<a target="_blank" href="https://github.com/vrn21" className="opacity-100 hover:text-blue-400"> vrn21</a>
+      </footer>
     </main>
   )
 }
