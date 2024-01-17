@@ -6,7 +6,8 @@ import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
 
 
 function App() {
-  var [shortenedLink,setShortenedLink] = useState("wallet-hunter-vrn21s-projects.vercel.app/BestSongInDaWorld")  
+  var [shortenedLink,setShortenedLink] = useState("") 
+  setShortenedLink("wallet-hunter-vrn21s-projects.vercel.app/BestSongInDaWorld")  
   return (
     <main className="flex flex-col justify-end item">
       <div className="flex justify-center w-[100vw] gap-[150px] items-center">
