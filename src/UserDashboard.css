@@ -1,0 +1,87 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #020817;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.go-back-button, .create-link-button {
+    background-color: #eab308;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.go-back-button:hover, .create-link-button:hover {
+    background-color: #ff8c00;
+}
+
+
+.links-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Increased spacing between link cards */
+    width: 100%;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.link-card {
+    background-color: #151f2b;
+    border: 1px solid #151f2b;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 600px;
+}
+
+.link-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-info h2 {
+    margin: 0;
+    font-size: 20px;
+    color: azure;
+}
+
+.link-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link-info a:hover {
+    text-decoration: underline;
+}
+
+/* Links header styling */
+.dashboard-header h1 {
+    background: linear-gradient(90deg, #eab308, #ff8c00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px; /* Adjust the size of the header text here */
+    margin: 0;
+    font-weight: 550;
+}

@@ -1,0 +1,113 @@
+/* Page container */
+.signup-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 50px;
+    background-color: #020817;
+    box-sizing: border-box;
+  }
+  
+  /* Text on the left */
+  .signup-text {
+    flex: 1;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .signup-text h1 {
+    background: linear-gradient(90deg, #f1c40f, #e67e22); /* Yellow to orange gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  
+  /* Container for form */
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .signup-box {
+    background-color: #151f2b;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    color: white;
+  }
+  
+  .signup-box h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    color: #aaa;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  .input-group input::placeholder {
+    color: #95a5a6;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f1c40f;
+    color: #151f2b;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .signup-button:hover {
+    background-color: #e2b007;
+  }
+  
+  .signup-footer {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .signup-footer a {
+    color: #f1c40f;
+    text-decoration: none;
+  }
+  
+  .signup-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: #e74c3c;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
