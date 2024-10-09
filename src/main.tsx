@@ -6,11 +6,15 @@ import SignUp from './SignUp.tsx'
 import UserDashboard from './UserDashboard.tsx'
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+
+
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-     <App /> 
+    
      {/* <LoginPage/>     */}
     {/* <SignUp/>    */}
      {/* <UserDashboard/>  */}
+    <App />
+    {/* <Test /> */}
   </React.StrictMode>,
-)
+);
